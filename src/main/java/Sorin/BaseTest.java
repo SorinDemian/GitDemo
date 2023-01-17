@@ -15,6 +15,8 @@ public class BaseTest {
 
     @AfterMethod
     public void closeChromeSession() {
+        System.out.println("The first change");
+        System.out.println("The second change");
         driver.quit();
     }
 }
