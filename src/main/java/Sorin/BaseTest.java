@@ -17,6 +17,7 @@ public class BaseTest {
     public void closeChromeSession() {
         System.out.println("The first change");
         System.out.println("The second change");
+        System.out.println("The las change");
         driver.quit();
     }
 }
